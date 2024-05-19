@@ -7,6 +7,7 @@ services:
     environment:
       - 'ORACLE_PWD=root'
       - 'ORACLE_CHARACTERSET=AL32UTF8'
+      # Test connection can be done using 'Database=FREEPDB1'
     ports:
       - '1522:1521'
     restart: 'on-failure'
